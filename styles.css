@@ -1,0 +1,116 @@
+html{
+    font-size: 14px;
+    font-weight: 400, 700;
+    font-family: 'Raleway';
+    background-image: url(./images/bg-desktop.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    height: 100%;
+    background-size: 100% 50%;
+    background-color:  hsl(229, 57%, 11%);   
+}
+
+.attribution{
+    color: white;
+    padding-top: 450px;
+}
+
+
+
+.s-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px 150px 10px 10px ;
+    background-color: hsl(228, 56%, 26%);
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 250px;
+    left: 260px;
+    display: inline-block;
+}
+
+.b-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px ;
+    width: 540px;
+    height: 150px;
+    background-color: hsl(228, 56%, 26%);
+    position: relative;
+    top: 250px;
+    left: 300px;
+    display: inline-block;
+}
+.ico{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.icon{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.icon-1{
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    padding: 12px;
+}
+.icon-2{
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-top: 14px;
+    padding-right: 12px;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.storage{
+    height: 10px;
+    width: 390px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) 1%  , hsl(335, 100%, 65%) 70% ,  hsl(229, 7%, 55%) 80%) ;
+}
+.circle{
+    background-color: white;
+    height: 10px;
+    width: 9px;
+    border-radius: 100%;
+    margin-left: 299px;
+}
+
+.text{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.zero{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+.thousand{
+    padding-left: 310px;
+    color: white;
+}
+
+.left{
+    border-radius: 8px;
+    width: 110px;
+    margin-top: -30px;
+    margin-left: 300px;
+    height:25px;
+    background-color: white;
+    align-items: center;
+    padding: 10px 10px;
+    font-weight: bolder;
+    font-family: cursive sans-serif;
+}
